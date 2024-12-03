@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore Customers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Bookstore Customers</h1>
+    <form id="customerForm">
+        <input type="text" id="nombre" placeholder="First Name" required>
+        <input type="text" id="apellido" placeholder="Last Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="text" id="direccion_envio" placeholder="Shipping Address" required>
+        <input type="text" id="direccion_facturacion" placeholder="Billing Address" required>
+        <input type="text" id="telefono" placeholder="Phone" required>
+        <button type="submit">Add Customer</button>
+    </form>
+    <div id="customers"></div>
+    <script src="script.js"></script>
+</body>
+</html>
